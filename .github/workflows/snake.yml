@@ -1,38 +1,31 @@
-name: Generate Snake Animation
+name: Generate Snake
 
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
-  build:
+  generate-snake:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Generate snake animation
-        uses: Platane/snk@master
-        with:
-          github_user_name: gl-ankit-kumar
-          svg_out_path: dist/github-snake.svg
-          gif_out_path: dist/github-snake.gif
-
-      - name: Generate dark mode snake
-        uses: Platane/snk@master
-        with:
-          github_user_name: gl-ankit-kumar
-          svg_out_path: dist/github-snake-dark.svg
-          args: --palette github-dark
-
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          force_orphan: true
+      - name: Generate Snake Animation
+        run: |
+          # Download and run snk directly
+          wget -q https://github.com/Platane/snk/releases/download/v1.5.0/snk_linux_amd64
+          chmod +x snk_linux_amd64
+          ./snk_linux_amd64 generate --github-user-name gl-ankit-kumar --output-file snake.svg
+          ./snk_linux_amd64 generate --github-user-name gl-ankit-kumar --output-file snake-dark.svg --palette github-dark
+          
+      - name: Deploy
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add snake.svg snake-dark.svg
+          git commit -m "Update snake animation" || exit 0
+          git push
