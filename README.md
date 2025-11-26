@@ -1,5 +1,3 @@
-# Hi there 👋, I'm Ankit Kumar!
-
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=0084E7&size=23&lines=Hi+there+👋,+I'm+Ankit+Kumar!)](https://git.io/typing-svg)
 
 ```python
@@ -26,24 +24,33 @@ if __name__ == '__main__':
     me = AboutMe()
 ```
 
-##
 
-<p align=center>
-  <div align=center>
-    <img align="left" width=390 src="https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true&theme=radical" />
-    <img align="right" width=390 src="https://github-readme-streak-stats.herokuapp.com?user=gl-ankit-kumar&theme=radical" />
+<p align="center">
+  <div align="center">
+    
+![Ankit's GitHub stats](https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true&theme=radical)
+    
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=gl-ankit-kumar&theme=radical)
+
   </div>
-  <br><br><br><br><br><br><br><br>
-  <div align=center>
-    <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=gl-ankit-kumar&layout=compact&theme=radical" />
-  </div>
+  
   <br>
-  <div align=center>
-    <a href="https://github.com/gl-ankit-kumar">
-      <img src="https://komarev.com/ghpvc/?username=gl-ankit-kumar&abbreviated=true" />
-    </a>
+  
+  <div align="center">
+    
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=gl-ankit-kumar&layout=compact&theme=radical)
+
+  </div>
+  
+  <br>
+  
+  <div align="center">
+    
+![Profile Views](https://komarev.com/ghpvc/?username=gl-ankit-kumar&abbreviated=true)
+
   </div>
 </p>
+
 
 ## 🐍 My Coding Activity
 
