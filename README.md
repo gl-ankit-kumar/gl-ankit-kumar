@@ -9,7 +9,6 @@
 ### 📊 About Me
 
 - 🎓 Post Graduate in Data Science & Engineering from Great Lakes Institute
-- 💼 Ex-Data Analyst at ILLUM Telecommunication
 - 🔭 Passionate about Machine Learning, Data Analysis, and Business Intelligence
 - 🌱 Currently enhancing skills in Advanced Analytics and Deep Learning
 
