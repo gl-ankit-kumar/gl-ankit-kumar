@@ -1,3 +1,6 @@
+![Snake animation](https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-contribution-grid-snake.svg)
+
+
 <h1 align="center">Hi there, I'm Ankit Kumar! 👋</h1>
 
 <p align="center">
@@ -24,12 +27,6 @@
 - **Microsoft Excel** (VBA, Macros, Power Pivot)
 - **Machine Learning** (Supervised & Unsupervised Learning)
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true&theme=radical" alt="Ankit's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gl-ankit-kumar&layout=compact&theme=radical" alt="Top Languages" />
-</p>
 
 ### 💼 Professional Experience
 
