@@ -42,7 +42,6 @@ if __name__ == '__main__':
 
 </div>
 
-## 🐍 **My Coding Activity Snake**
 
 ![Snake Game](https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-contribution-grid-snake.svg)
 
