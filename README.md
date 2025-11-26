@@ -57,6 +57,14 @@ if __name__ == '__main__':
   </div>
 </p>
 
+## 🐍 My Coding Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake.svg" width="100%">
+</picture>
+
 ## 💼 Professional Experience
 
 <div align="center">
@@ -77,7 +85,8 @@ if __name__ == '__main__':
   <img align="center" alt="NumPy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   <img align="center" alt="Tableau" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg">
-  <img align="center" alt="Excel" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg">
+  <img align="center" alt="PowerBI" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg">
+  <img align="center" alt="Scikit-Learn" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg">
   <img align="right" alt="Coding" height="150" style="border-radius:50px;" src="https://i.imgur.com/RPDLDSg.png">
 </div>
 
@@ -112,24 +121,10 @@ if __name__ == '__main__':
 ## 📫 Let's Connect
 
 <div>
-  <a href="https://www.linkedin.com/in/ankit-kumar" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:ankitkumarbgp.official@gmail.com"><img src="https://img.shields.io/badge/-Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/ankit-kumar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="mailto:ankitkumarbgp.official@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://github.com/gl-ankit-kumar" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 </div>
-
-##
-
-<div align="center">
-  
-https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake.svg
-
-</div>
-
----
-
-  
-  
-
 
 ## 📊 Certifications
 
@@ -147,4 +142,11 @@ https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-sn
 
 ---
 
-*Last Updated: December 2024*
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=gl-ankit-kumar&style=flat-square&color=blue" />
+</div>
+
+
+5. **Refresh your profile** to see the animated snake!
+
+Your profile will now display the snake animation that automatically switches between light and dark modes! 🐍✨
