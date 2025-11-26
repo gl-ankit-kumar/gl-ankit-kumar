@@ -8,38 +8,36 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
     steps:
-      - uses: actions/checkout@v2
-      
-      # Generate light mode SVG
-      - name: Generate light SVG
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Generate light mode SVG
         uses: Platane/snk@master
         with:
           github_user_name: gl-ankit-kumar
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: dist/github-snake.svg
 
-      # Generate dark mode SVG
-      - name: Generate dark SVG
+      - name: Generate dark mode SVG  
         uses: Platane/snk@master
         with:
           github_user_name: gl-ankit-kumar
-          svg_out_path: dist/github-contribution-grid-snake-dark.svg
+          svg_out_path: dist/github-snake-dark.svg
           args: --palette github-dark
 
-      # Generate GIF
-      - name: Generate GIF
-        uses: Platane/snk@master
-        with:
-          github_user_name: gl-ankit-kumar
-          gif_out_path: dist/github-contribution-grid-snake.gif
-
-      - name: Deploy to output branch
+      - name: Setup Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+      - name: Deploy to output branch
+        run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git checkout --orphan output
+          git checkout --orphan output || git checkout output
           git reset --hard
           git add -f dist/
-          git commit -m "Deploy snake animation"
+          git commit -m "Deploy snake animation - $(date)"
           git push origin output --force
