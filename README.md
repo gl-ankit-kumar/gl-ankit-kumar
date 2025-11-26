@@ -114,6 +114,7 @@ from transformers import pipeline
 chatbot = pipeline("text-generation", model="microsoft/DialoGPT-medium")
 ```
 
+
 ### 🏨 **Hotel Booking Cancellation Prediction** 
 *ML classification models with 87% accuracy*
 
@@ -125,6 +126,7 @@ chatbot = pipeline("text-generation", model="microsoft/DialoGPT-medium")
 
 ### 🏦 **Bank Marketing Campaign** 
 *Decision Tree classifier implementation*
+
 
 ## 📈 **GitHub Metrics**
 
@@ -156,4 +158,3 @@ chatbot = pipeline("text-generation", model="microsoft/DialoGPT-medium")
 **"Data is the new oil, and I'm the refinery turning it into insights!"** 🚀
 
 </div>
-```
