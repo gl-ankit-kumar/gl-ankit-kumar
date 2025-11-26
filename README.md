@@ -1,4 +1,3 @@
-```
 # Hi there 👋, I'm Ankit Kumar!
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=0084E7&size=23&lines=Hi+there+👋,+I'm+Ankit+Kumar!)](https://git.io/typing-svg)
