@@ -145,8 +145,3 @@ if __name__ == '__main__':
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=gl-ankit-kumar&style=flat-square&color=blue" />
 </div>
-
-
-5. **Refresh your profile** to see the animated snake!
-
-Your profile will now display the snake animation that automatically switches between light and dark modes! 🐍✨
