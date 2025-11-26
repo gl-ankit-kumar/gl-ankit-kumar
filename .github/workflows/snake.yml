@@ -10,16 +10,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: Platane/snk@master
+      
+      # Generate light mode SVG
+      - name: Generate light SVG
+        uses: Platane/snk@master
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake.gif
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-dark.gif?palette=github-dark
+          github_user_name: gl-ankit-kumar
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Push to output branch
+      # Generate dark mode SVG
+      - name: Generate dark SVG
+        uses: Platane/snk@master
+        with:
+          github_user_name: gl-ankit-kumar
+          svg_out_path: dist/github-contribution-grid-snake-dark.svg
+          args: --palette github-dark
+
+      # Generate GIF
+      - name: Generate GIF
+        uses: Platane/snk@master
+        with:
+          github_user_name: gl-ankit-kumar
+          gif_out_path: dist/github-contribution-grid-snake.gif
+
+      - name: Deploy to output branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -27,5 +41,5 @@ jobs:
           git checkout --orphan output
           git reset --hard
           git add -f dist/
-          git commit -m "Deploy to output branch"
+          git commit -m "Deploy snake animation"
           git push origin output --force
