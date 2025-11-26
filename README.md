@@ -1,3 +1,4 @@
+```
 # Hi there 👋, I'm Ankit Kumar!
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=0084E7&size=23&lines=Hi+there+👋,+I'm+Ankit+Kumar!)](https://git.io/typing-svg)
@@ -30,24 +31,12 @@ if __name__ == '__main__':
 
 <p align=center>
   <div align=center>
-    <picture>
-      <source srcset="https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true&theme=dracula" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img align="left" width=390 src="https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true" />
-    </picture>
-    <picture>
-      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=gl-ankit-kumar&theme=dracula" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=gl-ankit-kumar" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img align="right" width=390 src="https://github-readme-streak-stats.herokuapp.com?user=gl-ankit-kumar" />
-    </picture>
+    <img align="left" width=390 src="https://github-readme-stats.vercel.app/api?username=gl-ankit-kumar&show_icons=true&theme=radical" />
+    <img align="right" width=390 src="https://github-readme-streak-stats.herokuapp.com?user=gl-ankit-kumar&theme=radical" />
   </div>
   <br><br><br><br><br><br><br><br>
   <div align=center>
-    <picture>
-      <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=gl-ankit-kumar&theme=dracula&langs_count=8&layout=compact" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=gl-ankit-kumar&langs_count=8&layout=compact" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=gl-ankit-kumar&langs_count=8&layout=compact" />
-    </picture>
+    <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=gl-ankit-kumar&layout=compact&theme=radical" />
   </div>
   <br>
   <div align=center>
@@ -59,89 +48,50 @@ if __name__ == '__main__':
 
 ## 🐍 My Coding Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/output/github-snake.svg" width="100%">
-</picture>
+![Snake Animation](https://raw.githubusercontent.com/gl-ankit-kumar/gl-ankit-kumar/main/snake.svg)
 
 ## 💼 Professional Experience
 
-<div align="center">
-
-| Role | Company | Duration | Location |
-|------|---------|----------|----------|
-| Data Science Intern | Prodigy InfoTech | Sep 2023 - Oct 2023 | Remote |
-
-</div>
+**Data Science Intern** @ Prodigy InfoTech  
+*Sep 2023 - Oct 2023 | Remote*  
+- Implemented machine learning algorithms for real-world applications
 
 ## 🛠️ Technical Skills
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-  <img align="center" alt="Jupyter" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg">
   <img align="center" alt="MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
   <img align="center" alt="Pandas" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg">
   <img align="center" alt="NumPy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   <img align="center" alt="Tableau" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg">
-  <img align="center" alt="PowerBI" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg">
-  <img align="center" alt="Scikit-Learn" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg">
-  <img align="right" alt="Coding" height="150" style="border-radius:50px;" src="https://i.imgur.com/RPDLDSg.png">
 </div>
 
 ## 🎓 Education
 
-- **Post Graduate in Data Science & Engineering** - Great Learning, Great Lakes Institute *(Apr 2023 - Nov 2023)*
-- **Bachelor's in Business Administration** - Tilka Manjhi University *(2019-2023)* - 74.5%
-- **Company Secretary Foundation** - ICSI *(2019)*
+- **Post Graduate in Data Science & Engineering** - Great Learning, Great Lakes Institute
+- **Bachelor's in Business Administration** - Tilka Manjhi University (74.5%)
+- **Company Secretary Foundation** - ICSI
 
-## 🔬 Key Projects
+## 🔬 Projects
 
-### 🤖 ML ChatBot
-- Developed interactive chatbot trained on machine learning textbook
-- Integrated OpenAI for explanations and code examples
-
-### 🏨 Hotel Booking Cancellation Prediction  
-- Built classification models to forecast hotel booking cancellations
-- Optimized resource allocation through predictive analytics
-
-### 🌍 World Bank Group Analysis
-- Analyzed global demographic data using Python
-- Created visualizations with bar charts and histograms
-
-### 🚢 Titanic Dataset Analysis
-- Comprehensive EDA and machine learning implementation
-- Feature engineering and model training with Scikit-learn
-
-### 🏦 Bank Marketing Campaign
-- Developed Decision Tree classifier for customer purchase prediction
-- Business intelligence for marketing optimization
+- **Hotel Booking Cancellation Prediction** - ML classification models
+- **World Bank Group Analysis** - Data visualization and insights  
+- **Titanic Dataset Analysis** - EDA and predictive modeling
+- **Bank Marketing Campaign** - Decision Tree classifier
+- **ML ChatBot** - Interactive learning chatbot with OpenAI
 
 ## 📫 Let's Connect
 
 <div>
-  <a href="https://www.linkedin.com/in/ankit-kumar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href="mailto:ankitkumarbgp.official@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://github.com/gl-ankit-kumar" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/ankit-kumar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+  <a href="mailto:ankitkumarbgp.official@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/gl-ankit-kumar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
-
-## 📊 Certifications
-
-- **Basic Python** - HackerRank
-- **Intermediate & Advanced SQL** - HackerRank  
-- **Complete Data Science Bootcamp** - Udemy
-- **TCS iON Career Edge – Young Professional** - TCS iON (77.5%)
-
-## 🌟 Personal Attributes
-
-- Analytical Thinking & Problem-Solving
-- Strong Communication & Team Collaboration
-- Adaptability & Continuous Learning
-- Attention to Detail & Ethical Conduct
 
 ---
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=gl-ankit-kumar&style=flat-square&color=blue" />
 </div>
+```
