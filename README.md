@@ -9,7 +9,7 @@
 ### 📊 About Me
 - 🎓 Post Graduate in Data Science & Engineering  
 - 🔭 Passionate about Machine Learning & Data Analysis
-- 📫 Reach me: ankitkumarbgo.official@gmail.com
+- 📫 Reach me: ankitkumarbgp.official@gmail.com
 
 ### 🛠️ Technical Skills
 **Programming:** Python, SQL, MySQL  
